@@ -1,0 +1,23 @@
+.cardCover {
+    padding: 3rem;
+    background: rgb(30, 141, 200);
+    background: linear-gradient(90deg, rgba(30, 141, 200, 1) 0%, rgba(0, 219, 180, 1) 100%);
+    border-radius: 10px;
+}
+
+.cardData {
+    color: white;
+    border-radius: 70%;
+    margin-right: 1rem;
+    padding: 2.5rem;
+}
+
+.customContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background: rgb(30, 141, 200);
+    background: linear-gradient(90deg, rgba(30, 141, 200, 1) 0%, rgba(0, 219, 180, 1) 100%);
+    border-radius: 10px;
+}

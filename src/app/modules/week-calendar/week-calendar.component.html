@@ -1,0 +1,15 @@
+<div class="container mt-5">
+    <div class="row cardCover">
+        <div class="col cardData" *ngFor="let day of getWeekDays()"
+            [ngStyle]="{'border': (today.getDay() !== day.getDay()) ? '3px dashed white' : '3px solid white'}">
+            <h1>{{ day | date:'EEE'}}</h1>
+        </div>
+    </div>
+</div>
+
+<div class="customContainer mt-5">
+    <div class="cardData" *ngFor="let day of getWeekDays()"
+        [ngStyle]="{'border': (today.getDay() !== day.getDay()) ? '3px dashed white' : '3px solid white'}">
+        <h1>{{ day | date:'EEE'}}</h1>
+    </div>
+</div>
